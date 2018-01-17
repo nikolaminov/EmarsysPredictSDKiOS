@@ -43,7 +43,7 @@ typedef NS_ENUM(uint8_t, EMLogLevel) {
  */
 @interface EMSession : NSObject
 
-- (nullable instancetype)init UNAVAILABLE_ATTRIBUTE;
+- (instancetype)init UNAVAILABLE_ATTRIBUTE;
 
 /*!
  * @brief Returns the shared session.

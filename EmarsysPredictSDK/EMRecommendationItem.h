@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @interface EMRecommendationItem : NSObject
 
-- (nullable instancetype)init UNAVAILABLE_ATTRIBUTE;
+- (instancetype)init UNAVAILABLE_ATTRIBUTE;
 
 /*!
  * @brief Item info.
